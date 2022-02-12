@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+</head>
+<body>
+    <style>
+
+        @font-face {
+            font-family: 'love';
+            src: url('fontes/Alycidon-Condensed.otf')   format('-opentype'), url(fontes/Alycidon-Condensed.otf) format('truetype');  
+
+            font-weight: normal;
+            font-style: italic;
+
+        /*tipos de format()
+
+        -opentype(otf)
+        
+        -truetype(ttf)
+
+        -embedded-opentype
+
+        -truetype-aat    (Apple advaced Typography)
+
+        
+         */
+
+
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family: 'love', Times, serif;
+        }
+
+        p{
+            
+            font-size: 1em;
+        }
+    </style>
+    <h1>Título</h1>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum laboriosam, repellat expedita ea error dolorum nesciunt asperiores corrupti sed porro ipsam enim exercitationem necessitatibus. Tempora delectus impedit natus suscipit quis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi consequuntur itaque ullam recusandae soluta, velit blanditiis id enim voluptatem fugiat nam neque quo impedit libero, sunt dignissimos assumenda ipsam corrupti.</p>
+</body>
+</html>

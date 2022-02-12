@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>tente abrir esse site em varios dispositivos diferentesd ou simplesmene almente e diminua o tamanho do seu navegador </p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/img-p.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="imagens/img-m.png" type="image/png">
+
+        <img src="imagens/Sem título.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>reproduzindo audio </h1>
+
+    <p>vamos aprender a reproduzir audio em HTML5 </p>
+
+    <!-- <audio src="Space Age Hustle - Squadda B.mp3" controls autoplay></audio>
+    MP3 WAV OGG -->
+
+  <audio preload="auto"  controls loop>
+  <source src="Space Age Hustle - Squadda B.mp3" type="audio/mpeg">
+  <source src="Space Age Hustle - Squadda B.ogg" type="audio/ogg">
+  <source src="Space Age Hustle - Squadda B.wav" type="audio/wav">
+  <p>infelizmente seu navegador nao consegue reproduzir audio <a href="Space Age Hustle - Squadda B.mp3">clik aqui para baixar o arquivo em MP3</a></p>
+
+  </audio>
+
+  <audio src="TETO - Mustang Preto(MP3_320K).mp3"  controls></audio>
+
+</body>
+</html>
