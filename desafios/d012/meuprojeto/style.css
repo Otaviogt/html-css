@@ -1,0 +1,70 @@
+@charset  "UTF-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+
+
+  
+
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    padding-top:40px ;
+
+    
+}
+
+header > h1 {
+    font-size: 6em;
+    font-family: 'Passion One', cursive;
+    
+    
+}
+
+header > p {
+   font-size: 20px;
+   font-family: var(--fonte2);
+}
+
+header > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header > p > a:hover{
+    color: rgb(154, 156, 156);
+    transition: 1s;
+}
+
+#img1{
+    background-color: rgb(115, 82, 146);
+}
+
+#img2{
+    background-color:rgb( 115,82,146);
+
+}
+
+
+
+footer{
+    background-color: brown;
+}
